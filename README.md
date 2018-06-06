@@ -1,8 +1,30 @@
-# -VUE
-关于一些VUE，持续更新中 . . .
+# install
 
-==2018.5.29==</br>
-关于一个vue的bug</br>
-can't found module ‘xxx’</br>
-解决方法 : cnpm i xxx --save</br>
-注 :如果还是有can't found module的情况 , 把文件夹里node_module文件夹删掉,在命令行重新npm install即可
+> A Vue.js project
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# run unit tests
+npm run unit
+
+# run e2e tests
+npm run e2e
+
+# run all tests
+npm test
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
